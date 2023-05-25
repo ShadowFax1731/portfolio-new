@@ -1,0 +1,52 @@
+.pfp {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+.hero {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 118, 121, 0.3925945378151261) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  margin-left: 50px;
+  margin-top: 50px;
+  width: 500px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.skill-row {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.footer {
+  background-color: rgba(9, 118, 121, 0.3925945378151261);
+}
+
+@media (max-width: 775px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
