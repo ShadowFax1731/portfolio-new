@@ -19,13 +19,8 @@
 .card {
   margin-left: 50px;
   margin-top: 50px;
+  margin-bottom: 50px;
   width: 500px;
-}
-
-.flex-container {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 100px;
 }
 
 .skill-row {
@@ -45,8 +40,18 @@
   background-color: rgba(9, 118, 121, 0.3925945378151261);
 }
 
-@media (max-width: 775px) {
-  .flex-container {
-    flex-direction: column;
-  }
+.skill-row {
+  margin-left: 20px;
+}
+
+h1 {
+  font-family: "Playfair", serif;
+  font-weight: 300;
+}
+
+h2,
+h3,
+h5,
+h6 {
+  font-family: "Raleway", sans-serif;
 }
