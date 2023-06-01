@@ -1,48 +1,4 @@
-.pfp {
-  width: 300px;
-  height: 300px;
-  border-radius: 50%;
-}
-.hero {
-  background: rgb(2, 0, 36);
-  background: linear-gradient(
-    90deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(9, 118, 121, 0.3925945378151261) 35%,
-    rgba(0, 212, 255, 1) 100%
-  );
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.card {
-  margin-left: 50px;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  width: 500px;
-}
-
-.skill-row {
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-
-.contact {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 20px;
-}
-
-.footer {
-  background-color: rgba(9, 118, 121, 0.3925945378151261);
-}
-
-.skill-row {
-  margin-left: 20px;
-}
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
 
 h1 {
   font-family: "Playfair", serif;
@@ -51,7 +7,37 @@ h1 {
 
 h2,
 h3,
+h4,
 h5,
-h6 {
+h6,
+p {
   font-family: "Raleway", sans-serif;
+}
+
+.pfp {
+  border-radius: 50%;
+}
+
+h6,
+.card-title,
+.fs-2 {
+  color: #0d6efd;
+}
+.card {
+  transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px #b2beb5;
+}
+
+.project {
+  height: 100%;
+}
+
+@media (max-width: 496px) {
+  .pfp {
+    margin-top: 50px;
+  }
 }
